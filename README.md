@@ -14,3 +14,6 @@ ASFKJDPOFIJSK... i didnt know how removing elements work.. i learned how to make
 rainbows and buttons work now! 16:30;
 
 i dont know how to make it so that box wouldn't be changed from rainbow color to black vicev esrsa
+
+
+I know my code is bad and inefficient!
