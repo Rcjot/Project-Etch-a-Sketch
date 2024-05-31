@@ -59,7 +59,7 @@
 
 .gridColumn{
     box-sizing: border-box;
-    border: solid black 1px;
+    border: solid gray 0px;
     /* width: 43.75px;
     height: 43.75px; */
     color: black;
