@@ -6,17 +6,31 @@
     <title>Etch-a-Sketch</title>
 
     <link rel="stylesheet" href="style.css">
-
+    
 </head>
 <body>
     <div id="screen">
-        <div id="header"></div>
-    
-        <div id="container">
-            <div id="row-container"></div>
+        <div id="header">
+            <button id="rainbow">rainbow</button>
+            <button id="black">normal black</button>
+            <div id="canvasSize">
+                <label for="range"><button id="canvasButton"> Make Canvas</button></label>
+                <div id="myInput">
+                    <input type="range" id="numRange" min="1" max="100" oninput="this.nextElementSibling.value = this.value">
+                    <input type="number" id="numInput" min="1" max="100" oninput="this.previousElementSibling.value = this.value">
+                    
+                </div>
+                
+                
+            </div>
+            
+
         </div>
     
-        <div id="footer"></div>
+        <div id="container">
+        </div>
+    
+        <div id="footer">Rcjot 2024</div>
     </div>
     <script src="script.js"></script>
 </body>

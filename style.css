@@ -5,7 +5,9 @@
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
-
+body{
+    background-image: url(images/gbpBackground.png);
+}
 #screen {
     min-height: 100vh;
     display: flex;
@@ -17,7 +19,52 @@
     min-height: 70px;
     max-height: 100px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 20px;
+    background-color: rgba(40, 73, 119, 0.5);
 }
+
+#header > * {
+    color: black;
+}
+button {
+    padding: 20px;
+    border: 0px;
+    border-radius: 20px ;
+    
+}
+#canvasSize{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+#myInput{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+#numRange {
+    width: 100px;
+}
+#numInput {
+    width: 50px;
+    color:black;
+    border: 0;
+
+}
+#canvasButton {
+    color:black;
+    font-size: 15px;
+    padding: 10px;
+    border: 0px;
+    border-radius: 20px ;
+}
+
 
 
 #footer {
@@ -34,14 +81,14 @@
     flex:auto;
     padding: 40px;
     display: flex;
-    border: solid rgb(253, 148, 9) 2px;
+    /* border: solid rgb(253, 148, 9) 2px; */
     justify-content: center;
     max-height: max-content;
     
 }
 
-#row-container {
-    
+.row-container {
+    background-color: white;
     border: solid aliceblue 2px;
     display: flex;
     flex-direction: column;
@@ -59,7 +106,8 @@
 
 .gridColumn{
     box-sizing: border-box;
-    border: solid gray 0px;
+    border: solid gray 1px;
+    opacity: 0.2;
     /* width: 43.75px;
     height: 43.75px; */
     color: black;
